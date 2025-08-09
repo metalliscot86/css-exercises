@@ -20,19 +20,52 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* border-style: dashed; */
+  padding: 12px;
+  gap: 12px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* flex-flow: column auto; */
+  /* margin: auto; */
 }
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: rgb(123, 123, 173);
   width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border-style: double; */
+  flex-shrink: 0;
+  /* margin-right: 12px; */
+  /* gap: 16px; */
+}
+
+.container {
+  display: flex;
+  /* border-style: dotted; */
+  justify-content: start;
+  flex: auto;
+  flex-wrap: wrap;
+  gap: 8px;
+  
+}
+
+.header {
+  font-weight: bold;
+  font-size: 110%;
+  display: flex;
+  /* border-style: double; */
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: auto; */
 }
 
 .close-button {
@@ -46,8 +79,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #eee;
+  border: 1px solid #b63838;
   padding: 0;
+  /* margin: auto; */
+  /* align-self: flex-end; */
+  /* justify-self: end; */
+}
+
+.text {
+  /* display: flex; */
+  /* border-style: dashed; */
 }
 
 button {

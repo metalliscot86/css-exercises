@@ -6,12 +6,20 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  /* border-style: dotted; */
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 8px;
+  /* border-style: dotted; */
+  
 }
 
 .profile-image {
@@ -20,6 +28,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  /* border-style: dotted; */
+
 }
 
 .logo {
@@ -27,6 +37,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /* border-style: dotted; */
+
+}
+
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  /* border-style: dotted; */
+
+
 }
 
 button {
@@ -35,14 +56,27 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* border-style: dotted; */
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  /* border-style: solid; */
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  /* border-style: dotted; */
+  /* justify-items: stretch; */
+  margin: 0;
+  padding: 0;
+  
+
 }
+
